@@ -2,7 +2,7 @@ script: bash build_helpers/buildDistFromTravis.sh
 env:
   global:
   - GH_REF: github.com/kimagure/fixed-data-table
-  - secure: Nk1bKWwrCNQC0n2eo3IKsrNeoNAcodqn9LqT5tuCLrhsP8K+RScNTkbdoOmykwIU2+qU7iN2D8UGd2HwwD48cXVfibh9im356rVyuabKVxNzxAz7Oc7FLYtA+H88tAmXYybvWBmMVQEnsAHX48V9baLHlLrDPAuuIHeFhf0D9uw=
+  - secure: FsuavrWIOWipuK7pZf57BVQeSdQijbxFBjubnCodVgpfpRcuC85D3jCxQFKG/auCaC28F1rgUzYBO+cPttza0SBu9fy9xLFAAikWkm8klrQsUqgFUi8bLMCWXbsaqH0iRCcjQ6xDKVN+U4lnHVJOqgYqfh4BOJ5q8dOwGmPJe1U=
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
