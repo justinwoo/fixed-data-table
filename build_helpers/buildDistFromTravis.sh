@@ -1,10 +1,17 @@
 #!/bin/bash
 set -e
 
-branch_name="$(git symbolic-ref HEAD 2>/dev/null)"
+echo "where does travis fail?"
 
-if [ "$branch_name" == "refs/heads/master" ]
+echo "$(git --version)"
+
+branch_name="$(git rev-parse --abbrev-ref HEAD)"
+
+echo "here?"
+
+if [ "$branch_name" == "master" ]
 then
+  echo "definitely not here"
   # build dist
   npm run build-dist
 
